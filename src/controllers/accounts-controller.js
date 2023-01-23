@@ -40,11 +40,12 @@ export const accountsController = {
     },
   },
   logout: {
-    auth: false,
     handler: function (request, h) {
+      request.cookieAuth.clear();
       return h.redirect("/");
     },
   },
+
   async validate(request, session) {
     const user = await db.userStore.getUserById(session.id);
     if (!user) {

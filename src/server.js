@@ -4,10 +4,10 @@ import Handlebars from "handlebars";
 import path from "path";
 import { fileURLToPath } from "url";
 import Cookie from "@hapi/cookie";
+import dotenv from "dotenv";
 import { webRoutes } from "./web-routes.js";
 import { db } from "./models/db.js";
 import { accountsController } from "./controllers/accounts-controller.js";
-import dotenv from "dotenv";
 
 const result = dotenv.config();
 if (result.error) {
