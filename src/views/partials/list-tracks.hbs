@@ -4,6 +4,7 @@
       <th>Track</th>
       <th>Artist</th>
       <th>Duration</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -17,6 +18,11 @@
         </td>
         <td>
           {{duration}}
+        </td>
+        <td>
+          <a href="/playlist/{{../playlist._id}}/deletetrack/{{_id}}" class="ui icon button">
+            <i class="fas fa-trash"></i>
+          </a>
         </td>
       </tr>
     {{/each}}
