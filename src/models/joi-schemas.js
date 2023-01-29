@@ -11,3 +11,7 @@ export const UserCredentialsSpec = {
   email: Joi.string().email().required(),
   password: Joi.string().required(),
 };
+
+export const PlaylistSpec = {
+  title: Joi.string().required(),
+};
