@@ -1,32 +1,3 @@
 {
-  "users": [
-    {
-      "firstName": "Maggie",
-      "lastName": "Simpson",
-      "email": "maggie@simpson.com",
-      "password": "secret",
-      "_id": "601f6be6-0945-4677-bee7-7c80f07d0d57"
-    },
-    {
-      "firstName": "Maggie",
-      "lastName": "Simpson",
-      "email": "maggie@simpson.com",
-      "password": "secret",
-      "_id": "b3e4dad5-1393-4e23-9d8a-d5b2263424b6"
-    },
-    {
-      "firstName": "Maggie",
-      "lastName": "Simpson",
-      "email": "maggie@simpson.com",
-      "password": "secret",
-      "_id": "1ed8db18-cf2c-4ec3-831e-d04d365b42c4"
-    },
-    {
-      "firstName": "Maggie",
-      "lastName": "Simpson",
-      "email": "maggie@simpson.com",
-      "password": "secret",
-      "_id": "875d1aa4-cc84-4a27-b485-5c7256f8952d"
-    }
-  ]
+  "users": []
 }
