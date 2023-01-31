@@ -12,6 +12,12 @@ npm install -g mocha
 npm install -g chai
 ```
 
+
+To run the test from the shell:
+```
+npm run test
+```
+
 # Resources
 * Full Stack Web Development module lectures and labs on HDip in Computer Science at SETU
 * Fontawesome icons \
