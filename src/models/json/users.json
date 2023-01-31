@@ -1,3 +1,11 @@
 {
-  "users": []
+  "users": [
+    {
+      "firstName": "Maggie",
+      "lastName": "Simpson",
+      "email": "maggie@simpson.com",
+      "password": "secret",
+      "_id": "97273b38-8c61-470e-9a53-d05a2cf78e06"
+    }
+  ]
 }
