@@ -14,11 +14,13 @@ export const userMemStore = {
   },
 
   async getUserById(id) {
-    return users.find((user) => user._id === id);
+    await db.read();
+    return db.data.users.find((user) => user._id === id);
   },
 
   async getUserByEmail(email) {
-    return users.find((user) => user.email === email);
+    await db.read();
+    return db.data.users.find((user) => user.email === email);
   },
 
   async deleteUserById(id) {
