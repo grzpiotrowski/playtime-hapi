@@ -69,3 +69,5 @@ export const testTracks = [
     "duration": 4
   }
 ];
+
+export const serviceUrl = "http://localhost:3000";
