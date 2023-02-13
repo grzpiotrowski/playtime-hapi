@@ -30,6 +30,13 @@ export const playlistApi = {
   deleteAll: {
     auth: false,
     handler: async function (request, h) {
+      try {
+        await db.playlistStore.deleteAllPlaylists();
+        return h.response().code(204);
+      } catch (err) {
+        return Boom.serverUnavailable("Database Error");
+      }
     },
   },
+
 };
